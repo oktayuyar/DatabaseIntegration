@@ -30,7 +30,7 @@ public class Main {
         String line;
         while ((line = reader.readLine()) != null) {
             list.add(line+",");
-            
+          
         }
         reader.close();
         String listString = "";
