@@ -36,7 +36,7 @@ public class AddData {
             String sorgu="insert into cicek "
                     +"(cyaprak_boyu ,cyaprak_eni,tyaprak_boyu,tyaprak_eni,cicek_turu)"
                     +"values(?,?,?,?,?)";
-            
+       
             ps=vb.con.prepareStatement(sorgu);
             ps.setString(1, data.getCyaprak_boyu());
             ps.setString(2, data.getCyaprak_eni());
