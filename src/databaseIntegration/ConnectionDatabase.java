@@ -21,7 +21,7 @@ public class ConnectionDatabase {
     
     private String url="jdbc:mysql://localhost:3306/";
     private String driver="com.mysql.jdbc.Driver";
-    private String dbname="cicek_tahmin?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8";
+    private String dbname="iris?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8";
     private String username="root";
     private String password="";
     
